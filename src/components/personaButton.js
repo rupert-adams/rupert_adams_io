@@ -8,7 +8,7 @@ const PersonaButton = (props) => {
 
   return (
     <div>
-    <button onClick={() => props.switchPersona(personaTwo)}>
+    <button className="App-button" onClick={() => props.switchPersona(personaTwo)}>
       {props.persona.button}
     </button>
   </div>

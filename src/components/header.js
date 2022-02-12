@@ -7,15 +7,18 @@ const Header = (props) => (
     <div>
         <header className="App-header">
             <img src={props.logo} className="App-logo" alt="logo" />
-            <PersonaButton persona={props} />
+            <PersonaButton className="App-button" persona={props} />
             <div className="App-header-persona">
                 <h1 className="App-header-persona-element">{props.name}</h1>
                 <h1 className="App-header-persona-element">X</h1>
                 <h1 className="App-header-persona-element">{props.job}</h1>
             </div>
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/blog'>Blog</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
+            <div className="App-header-nav">
+                <p>-</p>
+                <NavLink className="App-link" to='/'>Home</NavLink>
+                <NavLink className="App-link" to='/blog'>Blog</NavLink>
+                <NavLink className="App-link" to='/contact'>Contact</NavLink> 
+            </div>
         </header>
     </div>
 );

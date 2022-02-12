@@ -14,7 +14,7 @@ class notFound extends Component {
                     <div>
                         <h2>{message.errTitle}</h2>
                         <p>{message.errMessage}</p>
-                        <Link to='/' >{message.goHomeButton}</Link>
+                        <Link className="App-button" to='/' >{message.goHomeButton}</Link>
                     </div>
                 ))[Math.floor(Math.random()*fourOhFourData.length)]}
             </div>
