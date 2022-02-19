@@ -1,6 +1,5 @@
 import skull_logo from '../media/Skull_Diggery_logo_salmon.png';
 import face_logo from '../media/1BW.jpeg';
-import face_fall_logo from '../media/1BW_fall.jpg';
 import { bioData } from './bioData.js';
 
 export const personaOne = {
@@ -11,10 +10,7 @@ export const personaOne = {
         'Tech Writer', 
         'Egalitarian System Designer'
     ],
-    'logo': [
-        face_logo,
-        face_fall_logo
-    ],
+    'logo': face_logo,
     'bio': bioData[0]
 };
     

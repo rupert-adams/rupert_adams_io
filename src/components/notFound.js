@@ -8,7 +8,7 @@ class notFound extends Component {
 
     render() {
         return (
-            <div>
+            <div className="App-component">
                 <h1>404</h1>
                 {fourOhFourData.map((message) => (
                     <div>

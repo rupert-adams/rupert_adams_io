@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 const Bio = (props) => (
-    <div>
+    <div className="App-component">
         <h1>{props.name}</h1>
         <p>{props.bio}</p>
     </div>

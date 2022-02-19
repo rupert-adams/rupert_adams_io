@@ -6,6 +6,11 @@
   color: #535C65;
 }
 
+.App-component {
+  padding: 2em 2em 4em 4em;
+  text-align: center;
+}
+
 .App-logo {
   max-height: 40vh;
   max-width: 40vh;
@@ -63,6 +68,15 @@
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
   left: 5px;
+}
+
+.Link-image {
+  color: #84a59d
+}
+
+.Link-text {
+  color: #535C65;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {

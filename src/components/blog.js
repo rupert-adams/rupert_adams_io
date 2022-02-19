@@ -5,7 +5,7 @@ class Blog extends Component {
 
     render() {
         return (
-            <div>
+            <div className="App-component">
                 {blogData.map(post => (
                     <div>
                         <h1>{post.title}</h1>
