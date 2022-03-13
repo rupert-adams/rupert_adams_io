@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 import PersonaButton from './personaButton.js'
 
 const Header = (props) => (
-    <div>
+    <div className="App-header-div">
         <header className="App-header">
             <img src={props.logo} className="App-logo" alt="logo" />
             <PersonaButton className="App-button" persona={props} />
@@ -13,8 +13,8 @@ const Header = (props) => (
                 <h1 className="App-header-persona-element">X</h1>
                 <h1 className="App-header-persona-element">{props.job}</h1>
             </div>
+            <p className="App-header-break">-</p>
             <div className="App-header-nav">
-                <p>-</p>
                 <NavLink className="App-link" to='/'>Home</NavLink>
                 <NavLink className="App-link" to='/blog'>Blog</NavLink>
                 <NavLink className="App-link" to='/contact'>Contact</NavLink> 

@@ -8,43 +8,56 @@
 
 .App-component {
   padding: 2em 2em 4em 4em;
-  text-align: center;
+  align-items: center;
 }
 
 .App-logo {
   max-height: 40vh;
-  max-width: 40vh;
+  max-width: 35vh;
   pointer-events: none;
+  position: static;
+}
+
+/* Header */
+.App-header-div {
+  position: sticky;
+  top: 0;
 }
 
 .App-header {
   background-color: #84a59d;
-  min-height: 100vh;
-  max-height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #F1CBC6;
-  position: relative;
-  padding-bottom: 0.5em;
 }
 
 .App-header-persona {
   max-height: 80vh;
   max-width: 80vh;
-  margin: 0.25em 0.25em 0em 0.5em;
-  position: static;
+  margin: 0.25em 0.25em -0.5em 0.5em;
+  position: sticky;
 }
 
 .App-header-nav {
   display: flex;
   flex-direction: column;
-  margin-bottom: 0.5em;
+  margin-bottom: 1.5em;
+  position: sticky;
+  padding-top: -0.38em;
 }
 
-/* CSS */
+/* Contact */
+.App-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  margin-left: 1em;
+}
+
+/* Button */
 .App-button {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
@@ -77,6 +90,25 @@
 .Link-text {
   color: #535C65;
   text-decoration: none;
+  padding: 1em;
+}
+
+.App-blog-para {
+  padding: 0.5em;
+  align-items: center;
+}
+
+.App-bio-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6em;
+}
+
+.App-bio-list-item {
+  max-width: 10em;
+  max-height: 5em;
 }
 
 @media (min-width: 768px) {
@@ -101,10 +133,47 @@
 @media only screen and (max-width: 600px) {
   .App {
     flex-direction: column;
+    height: 100%;
+  }
+
+  .App-header {
+    width: 100%;
+    height: 15em;
+    position: relative;
+  }
+
+  .App-header-div {
+    position: relative;
+  }
+
+  .App-header-nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: -1em;
+  }
+
+  .App-link {
+    padding: 0.33rem;
   }
 
   .App-logo {
     display: none;
+  }
+
+  .App-contact {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0em;
+  }
+
+  .App-blog-picture {
+    width: 20em;
+  }
+
+  .App-bio-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
   }
 }
 

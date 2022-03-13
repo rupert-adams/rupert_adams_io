@@ -9,9 +9,11 @@ class Blog extends Component {
                 {blogData.map(post => (
                     <div>
                         <h1>{post.title}</h1>
-                        <p>{post.picture}</p>
-                        <p>{post.body}</p>
-                        <p>*</p>
+                        <img className="App-blog-picture" src={post.picture} alt="blog picture"/>
+                        {post.body.map(para => (
+                            <p className="App-blog-para">{para}</p>
+                        ))}
+                        <p>***</p>
                     </div>
                 ))}   
             </div>

@@ -1,4 +1,4 @@
-import skull_logo from '../media/Skull_Diggery_logo_salmon.png';
+import skull_logo from '../media/skull_diggery_fun_io2.png';
 import face_logo from '../media/1BW.jpeg';
 import { bioData } from './bioData.js';
 
@@ -8,7 +8,7 @@ export const personaOne = {
     'job': [
         'Infrastructure Engineer', 
         'Tech Writer', 
-        'Egalitarian System Designer'
+        'System Designer'
     ],
     'logo': face_logo,
     'bio': bioData[0]
