@@ -7,7 +7,7 @@
 }
 
 .App-component {
-  padding: 2em 2em 4em 4em;
+  padding: 5em;
   align-items: center;
 }
 
@@ -44,7 +44,7 @@
 .App-header-nav {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.5em;
+  margin-bottom: 3.79em;
   position: sticky;
   padding-top: -0.38em;
 }
@@ -53,8 +53,9 @@
 .App-contact {
   display: flex;
   flex-direction: row;
-  align-items: space-around;
-  margin-left: 1em;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1em;
 }
 
 /* Button */
@@ -149,7 +150,6 @@
   .App-header-nav {
     display: flex;
     flex-direction: row;
-    margin-top: -1em;
   }
 
   .App-link {
@@ -163,7 +163,6 @@
   .App-contact {
     display: flex;
     flex-direction: column;
-    margin-left: 0em;
   }
 
   .App-blog-picture {

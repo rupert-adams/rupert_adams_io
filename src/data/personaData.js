@@ -1,5 +1,5 @@
-import skull_logo from '../media/skull_diggery_fun_io2.png';
-import face_logo from '../media/1BW.jpeg';
+import skull_logo from '../media/skull_diggery_rs.png';
+import face_logo from '../media/ru_de.png';
 import { bioData } from './bioData.js';
 
 export const personaOne = {
